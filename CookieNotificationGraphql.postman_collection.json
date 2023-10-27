@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "43fd74c2-17f1-4073-aab0-4af05ae9d01d",
+		"name": "CookieNotificationGraphql",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18921834"
+	},
+	"item": [
+		{
+			"name": "CookieNotificationGraphql",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "query {\n  storeConfig {\n    cookie_notification_enable_disable\n    box_position\n    notice_title\n    notice_message\n    cookie_policy_url\n    behaviour\n    expire_cookie_day\n  }\n}",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/graphql",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,31 @@
+# MageINIC
+# Copyright (C) 2023 MageINIC <support@mageinic.com>
+#
+# NOTICE OF LICENSE
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see https://opensource.org/licenses/gpl-3.0.html.
+#
+# Do not edit or add to this file if you wish to upgrade this extension to newer
+# version in the future.
+#
+# @category MageINIC
+# @package MageINIC_CookieNotificationGraphQl
+# @copyright Copyright (c) 2023 MageINIC (https://www.mageinic.com/)
+# @license https://opensource.org/licenses/gpl-3.0.html GNU General Public License,version 3 (GPL-3.0)
+# @author MageINIC <support@mageinic.com>
+
+type StoreConfig {
+    cookie_notification_enable: String @doc(description: "Cookie notification module enable")
+    box_position: String @doc(description: "Box position top bottom")
+    notice_title: String @doc(description: "Notification title")
+    notice_message: String @doc(description: "Notification message")
+    cookie_policy_url: String @doc(description: "Cookie policy url")
+    behaviour: String @doc(description: "user close the notice")
+    expire_cookie_day: String @doc(description: "Cookie expire day")
+}
