@@ -1,6 +1,6 @@
 {
     "name": "mageinic/module-cookienotificationgraphql",
-    "description": "Magento 2 extension to inform users about the use and the management of your website cookies",
+    "description": "Cookie Notification GraphQL is a part of MageINIC Cookie Notification extension that adds GraphQL features. This extension extends Cookie Notification definitions.",
     "require": {
         "php": "^8.0",
         "mageinic/core": "1.0.*",
@@ -9,7 +9,8 @@
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
-        "Commercial"
+        "OSL-3.0",
+        "AFL-3.0"
     ],
     "authors": [
         {
