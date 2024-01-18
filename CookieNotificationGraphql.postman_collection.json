@@ -14,7 +14,7 @@
 				"body": {
 					"mode": "graphql",
 					"graphql": {
-						"query": "query {\n  storeConfig {\n    cookie_notification_enable_disable\n    box_position\n    notice_title\n    notice_message\n    cookie_policy_url\n    behaviour\n    expire_cookie_day\n  }\n}",
+						"query": "query {\n  storeConfig {\n    enabledisable\n    type\n    bar_position\n    box_position\n    behaviour\n    auto_hide_after\n    auto_accept\n    expire\n    onscroll\n    show\n    custom_message\n    model_title\n    custom_accept\n    custom_close\n    custom_more_info\n    cms_page\n    font_family\n    model_text_align\n    model_title_size\n    model_message_size\n    model_border\n    continer_top_border\n    container_bottom_border\n    container_border_color\n    header_background_color\n    header_font_color\n    header_bottom_border_color\n    footer_top_border_color\n    accept_button_background_color\n    close_button_background_color\n    policy_button_background_color\n    close_button_color\n    privace_policy_color\n    accept_button_color\n    model_title_color\n }\n}",
 						"variables": ""
 					}
 				},

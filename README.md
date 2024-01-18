@@ -7,7 +7,7 @@
 Run the following command in Magento 2 root folder:
 
 ```
-composer require mageinic/module-cookienotificationgraphql
+composer require mageinic/cookie-notification-graphql
 
 php bin/magento maintenance:enable
 php bin/magento setup:upgrade
@@ -18,11 +18,11 @@ php bin/magento cache:flush
 ```
 
 **Note:**
-Magento 2 Cookie Notification GraphQL requires installing [MageINIC Cookie Notification](https://github.com/mageinic/Cookie-Notification) in your Magento installation.
+Magento 2 Cookie Notification GraphQL requires installing [MageINIC Cookie Notification](https://github.com/mageinic/Cookie-Notification-GraphQl) in your Magento installation.
 
 **Or Install via composer [Recommend]**
 ```
-composer require mageinic/module-cookienotification
+composer require mageinic/cookie-notification
 ```
 
 ## 2. How to use
